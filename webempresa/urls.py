@@ -28,7 +28,7 @@ urlpatterns = [
     #Paths del admin
     path('admin/', admin.site.urls),
 ]
-#Para servir ficheros de media 
+#Para servir ficheros de media de imagenes
 if settings.DEBUG:
     from django.conf.urls.static import static
     # indicamos url de media y dirección del directorio donde estarán las imagenes (importadas de settings)
